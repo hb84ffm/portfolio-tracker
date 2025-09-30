@@ -14,7 +14,7 @@ A Python package to track liquid stocks from yfinance across several KPIs & KRIs
   - one tab "asset comparison" to benchmark two assets against each other, soon to follow other tabs with more functionality
   - variable start_date, end_date selection
   - price type selection by OPEN, CLOSE, HIGH, LOW
-  - Risk free rate as input field for both selected assets (if given) to calcualte Sharpe Ratio
+  - Risk free rate as input field for both selected assets (if given) to calcualte Sharpe ratio
   - Analyse button to open a pop up for user entry
   - Exit button to quit the app
 - Analytics with follwoing features:
@@ -27,10 +27,10 @@ A Python package to track liquid stocks from yfinance across several KPIs & KRIs
     - Risk (volatility based on selected timespan from start_date, end_date)
     - Correlation of both assets
   - Charts:
-    - Chart to compare price trajectory of both assets (in ccy of first asset!)
-    - Chart to compare return trajectory of both assets (in %)
-    - Chart to compare volume trajectory of both assets (in traded units)
-    - Chart to compare risk/return profile of both assets (in %)
+    - Comparison of price trajectory for both assets (in ccy of first asset!)
+    - Comparison of return trajectory for both assets (in %)
+    - Comparison of volume trajectory for both assets (in traded units)
+    - Comparison of risk/return profile for both assets (in %)
 
 ### REQUIREMENTS - WEITER !
 - Python 3.11+ (tested with 3.11.9)
