@@ -1,6 +1,6 @@
 # portfolio-tracker
 
-A Python package to track liquid stocks from yfinance across several KPIs & KRIs. 
+A Python package to track liquid assets from yfinance across several KPIs & KRIs. 
 
 ### FEATURES
 - Side by side comparison of two (liquid) assets with selectiona cross:
