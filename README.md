@@ -3,15 +3,21 @@
 A Python package to track liquid stocks from yfinance across several KPIs & KRIs. 
 
 ### FEATURES
-- Side by side comparison of two (liquid) assets (stocks - US, JP, FR, DE, SU ; crypto ; BTC, ETH, SOL ; ETFs US)
-- UI:
+- Side by side comparison of two (liquid) assets with selectiona cross:
+  - stocks:
+    - US, JP, FR, DE, SU
+  - crypto:
+    - BTC, ETH, SOL
+  - ETFs:
+    - US
+- UI with follwoing features:
   - one tab "asset comparison" to benchmark two assets against each other, soon to follow other tabs with more functionality
   - variable start_date, end_date selection
   - price type selection by OPEN, CLOSE, HIGH, LOW
   - Risk free rate as input field for both selected assets (if given) to calcualte Sharpe Ratio
   - Analyse button to open a pop up for user entry
   - Exit button to quit the app
-- Analytics:
+- Analytics with follwoing features:
   - KPIs:
     - Return of both assets
     - Dividend yield of both assets (if given)
@@ -20,8 +26,13 @@ A Python package to track liquid stocks from yfinance across several KPIs & KRIs
   - KRIs:
     - Risk (volatility based on selected timespan from start_date, end_date)
     - Correlation of both assets
+  - Charts:
+    - Chart to compare price trajectory of both assets (in ccy of first asset!)
+    - Chart to compare return trajectory of both assets (in %)
+    - Chart to compare volume trajectory of both assets (in traded units)
+    - Chart to compare risk/return profile of both assets (in %)
 
-### REQUIREMENTS
+### REQUIREMENTS - WEITER !
 - Python 3.11+ (tested with 3.11.9)
 - Required dependencies (see requirements.txt for details):<br>
     numpy==2.1.3<br>
@@ -32,8 +43,8 @@ A Python package to track liquid stocks from yfinance across several KPIs & KRIs
 
 ### INSTALLATION
 1. Clone the repository:<br>
-       git clone https://github.com/hb84ffm/deep-hedging.git<br>
-       cd deep_call_hedger<br>
+       git clone https://github.com/hb84ffm/portfolio-tracker.git<br>
+       cd portfolio-tracker<br>
 
 2. Create & activate your virtual environment:<br>
        python3 -m venv venv<br>
