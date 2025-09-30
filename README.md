@@ -31,15 +31,15 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
     - Comparison of return trajectory for both assets (in %)
     - Comparison of volume trajectory for both assets (in traded units)
     - Comparison of risk/return profile for both assets (in %)
+- JSON file with latest tickers and friendly names for identification
 
 ### REQUIREMENTS - WEITER !
 - Python 3.11+ (tested with 3.11.9)
 - Required dependencies (see requirements.txt for details):<br>
-    numpy==2.1.3<br>
-    tensorflow==2.19.0<br>
-    scipy==1.16.0<br>
-    matplotlib==3.10.5<br>
-    seaborn==0.13.2<br>
+    streamlit==1.24.1<br>
+    pandas==2.0.3<br>
+    numpy==1.25.2<br>
+    yfinance==0.2.25<br>
 
 ### INSTALLATION
 1. Clone the repository:<br>
