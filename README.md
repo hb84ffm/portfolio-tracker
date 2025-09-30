@@ -11,9 +11,9 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
   - ETFs:
     - US
 - UI with follwoing features:
-  - one tab "asset comparison" to benchmark two assets against each other, soon to follow other tabs with more functionality
-  - variable start_date, end_date selection
-  - price type selection by OPEN, CLOSE, HIGH, LOW
+  - Tab "asset comparison" to benchmark two assets (soon to follow other tabs with more functionality)
+  - Variable start_date, end_date selection
+  - Price type selection by OPEN, CLOSE, HIGH, LOW
   - Risk free rate as input field for both selected assets (if given) to calcualte Sharpe ratio
   - Analyse button to open a pop up for user entry
   - Exit button to quit the app
