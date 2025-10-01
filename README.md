@@ -1,4 +1,6 @@
 # portfolio-tracker
+![portfolio-tracker-ui](https://github.com/user-attachments/assets/6a826753-40d4-43f5-99d1-dcf0cb140fdc)
+![portfolio-tracker-results](https://github.com/user-attachments/assets/3270a414-df8f-4e60-bfad-1ee1aab4ff7e)
 
 A Python package to track liquid assets from yfinance across several KPIs & KRIs. 
 
