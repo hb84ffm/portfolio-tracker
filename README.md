@@ -35,11 +35,7 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
 
 ### REQUIREMENTS - WEITER !
 - Python 3.11+ (tested with 3.11.9)
-- Required dependencies (see requirements.txt for details):<br>
-    streamlit==1.24.1<br>
-    pandas==2.0.3<br>
-    numpy==1.25.2<br>
-    yfinance==0.2.25<br>
+- Required dependencies, see requirements.txt
 
 ### INSTALLATION
 1. Clone the repository:<br>
