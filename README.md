@@ -55,37 +55,25 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
        pip install -r requirements.txt
 
 ### USAGE
-1. Train the deep hedging model (or use the pretrained model deep_hedging_64.keras):<br>
-       python main_training.py<br>
-   -> Saves a trained ".keras" model to the models/ folder.
+1. Open the app via termins/zsh by command streamlit run "path_to_app/app.py" 
 
-2. Run prediction & analysis:<br>
-       python main_prediction.py<br>
-   -> Uses the trained model to run simulations & generate plots.
-
+2. Press "Analyse" button to select assets & specify paramneters, then press "Run"
+3. 
 ### PACKAGE STRUCTURE
 
-<pre>deep_call_hedger/
+<pre>portfolio_tracker/
 ├─── __init__.py
-├─── main_prediction.py             # Orchestrates the prediction
-├─── main_training.py               # Orchestrates the training
-├─── dh_model/
+├─── main.py                        # Orchestrates the modules
+├─── streamlit./                    # Hidden folder with config.toml file  
+     ├─── config.toml               # config.toml for app layout & format
+├─── asset_comparison/              # Orchestrates the prediction
      ├─── __init__.py
-     ├─── dh_model.py               # Designs the model (computational graph) by Keras functional API
-├─── models/                        
-     ├─── deep_hedging_64.keras     # Pretrained deep_hedging_64.keras model trained across 64 timesteps
-├── options/
+     ├─── asset_comparison.py
+├─── utils/
      ├─── __init__.py
-     ├─── bs.py                     # Black Scholes calculator for European calls
-├── prediction/
-     ├─── analysis.py               # Derives analytics (charts, KPIs & KRIs) on predicted data
-     ├─── prediction.py             # Generates prediction data & runs prediction using the trained model 
-├── stocks/                  
-     ├── __init__.py
-     ├─── stocks.py                 # Stock simulation
-├── training/                   
-     ├─── __init__.py
-     ├─── training.py               # Compiles the model & starts the training</pre>
+     ├─── utils.py                  # Module with utils (exit button, logout) needed across all other 
+├─── ticker_names/                        
+     ├─── ticker_names.json         # JSON file with ticker names (can be adjusted if needed!)
 
 ### EXAMPLE WORKFLOW
 See provided Jupyter notebook [example](https://github.com/hb84ffm/deep-hedging/blob/main/example.ipynb) for explanation.
