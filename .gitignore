@@ -1,0 +1,36 @@
+# Bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Streamlit hidden folder
+.streamlit/
+
+# JSON data files you want to keep versioned
+# (ticker_names/ticker_names.json is versioned, so no ignore here)
+
+# Temporary or log files
+*.log
+*.tmp
+
+# Editor or OS-specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
