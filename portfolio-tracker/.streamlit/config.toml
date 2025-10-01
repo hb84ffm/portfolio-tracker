@@ -1,0 +1,12 @@
+[theme]
+primaryColor="#e08300ff"              # Buttons, sliders, highlights, progress bars
+backgroundColor="#000000"             # Main app background
+secondaryBackgroundColor="#232133ff"  # Sidebar, expanders, forms. Try also: #23252d , #02055F & #373944
+textColor="#f2f2f2ff"                 # Most text
+font="sans serif"                     # Font family, but not the font itself
+
+[ui]
+hideTopBar = true                     # Remove hamburger icon
+
+[client]
+toolbarMode="viewer"                  # Remove deploy button
