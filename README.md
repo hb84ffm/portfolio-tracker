@@ -33,7 +33,7 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
     - Comparison of risk/return profile for both assets (in %)
 - JSON file with latest tickers and friendly names for identification
 
-### REQUIREMENTS - WEITER !
+### REQUIREMENTS
 - Python 3.11+ (tested with 3.11.9)
 - Required dependencies, see requirements.txt
 
