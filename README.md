@@ -57,6 +57,9 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
 
 2. Press "Analyse" button to select assets & specify parameters, then press "Run"
 
+### NOTICE
+- Multiple features will be added from time to time!
+
 ### PACKAGE STRUCTURE
 
 <pre>portfolio_tracker/
