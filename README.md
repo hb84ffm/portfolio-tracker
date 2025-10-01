@@ -63,12 +63,12 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
 
 <pre>portfolio_tracker/
 ├─── __init__.py
-├─── main.py                        # Orchestrates the modules
+├─── main.py                        # Orchestrates all modules
 ├─── streamlit./                    # Hidden folder with config.toml file  
      ├─── config.toml               # config.toml for app layout & format
-├─── asset_comparison/              # Orchestrates the prediction
+├─── asset_comparison/
      ├─── __init__.py
-     ├─── asset_comparison.py
+     ├─── asset_comparison.py       # Module to pull data and run analytics
 ├─── utils/
      ├─── __init__.py
      ├─── utils.py                  # Module with utils (exit button, logout) needed across all other 
@@ -76,10 +76,7 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
      ├─── ticker_names.json         # JSON file with ticker names (can be adjusted if needed!)
 
 ### EXAMPLE WORKFLOW
-See provided Jupyter notebook [example](https://github.com/hb84ffm/deep-hedging/blob/main/example.ipynb) for explanation.
-
-### CREDITS
-Josef Teichmann's [implementation](https://gist.github.com/jteichma/4d9c0079dbf4e9c3cdff3fd1befabd23)
+See provided Jupyter notebook [example](https://github.com/) for explanation.
 
 ### AUTHOR
 For questions or feedback reach out to me via: [GitHub](https://github.com/hb84ffm).
