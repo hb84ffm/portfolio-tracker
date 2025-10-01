@@ -57,7 +57,7 @@ A Python package to track liquid assets from yfinance across several KPIs & KRIs
 ### USAGE
 1. Open the app via termins/zsh by command streamlit run "path_to_app/app.py" 
 
-2. Press "Analyse" button to select assets & specify paramneters, then press "Run"
+2. Press "Analyse" button to select assets & specify parameters, then press "Run"
 
 ### PACKAGE STRUCTURE
 
